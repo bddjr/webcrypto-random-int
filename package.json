@@ -1,0 +1,31 @@
+{
+  "name": "webcrypto-random-int",
+  "version": "1.0.0",
+  "description": "Like golang, get crypto random integer or bigInt.",
+  "main": "webcrypto-random-int.js",
+  "type": "module",
+  "keywords": [
+    "webcrypto-random-int",
+    "crypto",
+    "webcrypto",
+    "random",
+    "int",
+    "randomint",
+    "randint",
+    "cryptorand",
+    "webcryptorandomint"
+  ],
+  "scripts": {
+    "example": "live-server --open=/example/example.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bddjr/webcrypto-random-int.git"
+  },
+  "author": "bddjr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bddjr/webcrypto-random-int/issues"
+  },
+  "homepage": "https://github.com/bddjr/webcrypto-random-int#readme"
+}
