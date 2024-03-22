@@ -1,6 +1,6 @@
 # webcrypto-random-int
 
-Like golang, get crypto random integer or bigInt.
+Like golang, get crypto random integer or bigint.
 
 ## NPM
 ```
@@ -21,8 +21,16 @@ if (CryptoRandInt.canIUse) {
   ));
 }
 ```
+```
+53
+216521706795757442119767567038153766458
+SK2jwNqt3xvP1zuSwJt7CcxAI4T2GYbA
+```
 
 ## Test
+
+<https://bddjr.github.io/webcrypto-random-int/example/example.html>
+
 ```
 npm -g i live-server
 npm run example

@@ -72,7 +72,7 @@ export function bigInt(max) {
   }
 
   // k is the maximum byte length needed to encode a value < max.
-  const k = Math.floor((bitLen + 7) / 8);
+  const k = Math.ceil(bitLen / 8);
   // b is the number of bits in the most significant byte of max-1.
   const b = (1 << (bitLen % 8 || 8)) - 1;
 
@@ -95,7 +95,7 @@ export function bigInt(max) {
 }
 
 /**
- * Str(32, "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+ * str(32, "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
  *
  * @param {any} length
  * @param {string} letters
