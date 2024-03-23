@@ -22,6 +22,7 @@ if (CryptoRandInt.canIUse) {
 }
 ```
 ```
+canIUse true
 53
 216521706795757442119767567038153766458
 SK2jwNqt3xvP1zuSwJt7CcxAI4T2GYbA
