@@ -1,6 +1,6 @@
 {
   "name": "webcrypto-random-int",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Like golang, get crypto random integer or bigint.",
   "main": "webcrypto-random-int.js",
   "type": "module",
